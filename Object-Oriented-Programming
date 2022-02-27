@@ -1,0 +1,20 @@
+There are two ways to program:
+  -Procedural Programming
+  -Object Oriented Programming
+  
+-Explanations-
+Procedural Programming:  Read the program instructions line by line, starting at the top going down until the end, much like how we read.
+    Move LeftArm out directly over beer can;
+    Open LeftHand;
+    Move LeftArm down until it touches the table;
+    Close LeftHand;
+    Return Left arm to original starting position;
+    
+        Makes sense, right?  Program name: Grab_That_Beer.c
+        The C programming language is Procedural.
+        
+Object Oriented Programming:  It's possible to use an Object Oriented Programming language in a procedural way, but it's not designed to
+be used like that and it's not efficient at all.
+
+I think of OOP like this.  In Windows File Explorer you can make a new text file, right?  Right click your new file and what you see are 
+different 
