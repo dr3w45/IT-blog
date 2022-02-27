@@ -1,0 +1,20 @@
+The concept of privilege escalation can be described very easily by explaining one technique with the following example.
+
+Bob owns a house and he likes it clean.  He bought a Robot to automate the process of cleaning the entire house.  The master bedroom in the house is under lock and key so
+in order for his new robot to be able to clean it he issued a set of keys to the Robot.
+
+Bob had a party at his house and there was a guest there that wanted to rob Bob and steal everything of value, which was stored in the master bedroom.
+The guest (let's call him dr3w) noticed Bob's Robot using the keys that were given to him to onlock the master bedroom so he could clean it.  dr3w approached the Robot and
+noticed that the Robot accepted commands and, much to his surprise, anybody could command the Robot.  Bob forgot to tell the Robot not to accept any commands that were
+given to him unless they came specifically from Bob.
+
+dr3w told the Robot to go into the master bedroom, grab everything of value and put it in the trunk of his car.
+dr3w drives off with Bob's stuff.
+
+example explained.
+Bob is like a system administrator that uses Cron jobs (the Robot) to automate boring tasks.  Cron job is a fancy name for a regularly scheduled task in linux systems.
+Bob's house represents the server that Bob runs.
+dr3w obviously represents the hacker.
+
+So dr3w used a Cron Job to "escalate" from his "guest" privileges in the house (server) up to "owner" with the master keys.
+
